@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando áudios</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+     <video width="560" heigth="315" poster="img/pexels-chevanon-photography-302899.png" autostart controls><!-- Algumas versões do Chrome aceitam apenas autostart -->
+         <source src="midia/video.mp4" type="video/mp4"> 
+         <source src="midia/video.m4v" type="video/m4v"> 
+         <source src="midia/video.webm" type="video/webm">
+         <p>Seu navegador não tem compatibilidade para a reprodução deste vídeo. Caso queira baixá-lo, <a href="midia/video.mp4" download="midia/video.mp4">clique aqui.</a></p> 
+     </video>
+     <h1>Inserindo vídeos do Youtube.</h1>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/3hgrw7QQpnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

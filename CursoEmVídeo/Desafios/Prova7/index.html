@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+
+    <link rel="shortcut icon" href="imagem/faviconNerdola.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F384</p>
+    <picture>
+        <source media="(max-width: 870px)" srcset="imagem/loveP.jpg" type="image/jpg">
+        <source media="(max-width: 1105px)" srcset="imagem/loveM.jpg" type="image/jpg">
+        <img src="imagem/loveG.jpg" alt="wallpaper love flexível">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!-- Utilizável: Strong, Em, Mark, Del, Small, Ins, Sup, Sub
+     Meh: B, I, Big, U-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    
+    <style>
+        mark {
+            background-color: red;
+        }
+    </style>
+       <!-- Esse comando seria para escolher a cor global do mark DESTA página , porém as tags mark que estiverem dentro de um código específico não mudam nem com um código global --> 
+ 
+</head>
+<body>
+
+<!-- Dê prioridade para usar Strong e Em, B e I estão entrndo em desuso -->
+
+   <h1>Principais Formatações</h1> 
+   <h2>Negrito / Destaque</h2>
+
+        <p>Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;
+        </p>
+
+        <p>Nesta frase tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;(semântica, o Strong passa uma impressão de maior urgência naquilo que ele destaca)
+        </p>
+
+   <h2>Itálico / Ênfase</h2>
+        <p>
+
+        Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (não semântica). 
+
+        </p>
+         <p>
+
+        Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt;(semântica)
+
+        <h2>Texto marcado</h2>
+        </p>
+        <p>Podermos criar também <mark style="background-color:chocolate">um texto marcado</mark> usando a tag &lt;mark&gt;
+        </p>
+        <p>A cor do mark não é global, ou seja, aqui <mark>continuaria padrão</mark></p>
+
+        <h2>Texto grande e pequeno</h2>
+
+        <p>Estamos criando um <big>texto grande</big><!-- Tag big é obsoleto --> e um <small>texto pequeno</small> neste trecho usando &lt;big&gt; e &lt;small&gt;</p>
+
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. Ele é feito utilizando a tag &lt;del&gt;</p>
+
+        <h2>Texto insetido</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. Faça isso com a tag &lt;ins&gt;</p>
+        <p>Existem também o <u>sublinhado com a tag</u> &lt;u&gt; (Não semântico)</p>
+
+        <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3. Isso se faz com a tag &lt;sup&gt;</p>
+        <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O. Consiga esse feito com a tag &lt;sub&gt;</p>
+</body>        
+</html>
